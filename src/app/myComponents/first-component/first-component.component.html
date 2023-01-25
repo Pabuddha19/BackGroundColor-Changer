@@ -1,0 +1,9 @@
+<div class="component-first">
+
+    <p [ngClass]="{'green': color ==='green', 'white': color ==='white' ,'yellow': color ==='yellow' }">I am a text.
+    </p>
+    <button (click)="highlightColor('white')">Highlight White. </button>
+    <button (click)="highlightColor('green')"> Highlight green. </button>
+    <button (click)="highlightColor('yellow')"> Highlight yellow.</button>
+
+</div>
